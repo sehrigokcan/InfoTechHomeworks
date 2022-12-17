@@ -18,9 +18,9 @@ public class Question01 {
 		System.out.print("3. sayi: ");
 		int sayi3 = input.nextInt();
 
-		if (sayi1 > sayi2 && sayi1 > sayi3) {
+		if (sayi1 >= sayi2 && sayi1 >= sayi3) {
 			System.out.print("Maximum sayi 1.sayi olan : " + sayi1);
-		} else if (sayi2 > sayi1 && sayi2 > sayi3) {
+		} else if (sayi2 >= sayi1 && sayi2 >= sayi3) {
 			System.out.print("Maximum sayi 2. sayi olan : " + sayi2);
 		} else {
 			System.out.print("Maximum sayi 3. sayi olan: " + sayi3);

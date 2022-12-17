@@ -12,7 +12,7 @@ public class Question05 {
 		Scanner input= new Scanner(System.in);
 		System.out.print("Bir karakter giriniz: ");
 		char karakter=input.next().charAt(0);
-		if ((karakter>=65 && karakter<=90) || karakter>=97 && karakter<=122) {
+		if (Character.isAlphabetic(karakter)) { //(karakter>=65 && karakter<=90) || karakter>=97 && karakter<=122)
 			System.out.print("Harf..");
 
 		}else {
