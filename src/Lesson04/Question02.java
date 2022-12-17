@@ -20,7 +20,7 @@ public class Question02 {
 			System.out.println("Girdiginiz isim Z harfi iceriyor");
 		if (!isim.contains("a") && !isim.contains("Z"))
 			System.out.println("Girdiginiz isim a veya Z harfi icermiyor");
-		
+
 		scan.close();
 	}
 
