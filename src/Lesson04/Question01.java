@@ -7,7 +7,8 @@ public class Question01 {
 	public static void main(String[] args) {
 
 		String str = " Java ogrenmek123 Cok guzel@ ";
-		String str2 = str.replaceAll("[0-9]", "").replace('@', '.').replace('C', 'c').trim();
+		String str2 = str.replaceAll("[0-9]", "").replace('@', '.').
+				replace('C', 'c').trim();
 		System.out.println(str2);
 
 	}

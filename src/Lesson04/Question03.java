@@ -14,7 +14,8 @@ public class Question03 {
 		System.out.print("Soyisminiz: ");
 		String soyIsim = scan.nextLine();
 
-		System.out.println(isim.length() > soyIsim.length() ? "Isminiz uzun" : "Soyisminiz uzun");
+		System.out.println(isim.length() > soyIsim.length() ? 
+				"Isminiz uzun" : "Soyisminiz uzun");
 
 		scan.close();
 	}
