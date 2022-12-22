@@ -20,7 +20,7 @@ public class Question09 {
 		for (int i=1;i<=sayi;i++) {
 			System.out.println();
 			for (int j=1;j<=sayi;j++) {
-				System.out.print(i*j+ " ");
+				System.out.print(i*j+ "\t");
 			}
 		}
 		scan.close();

@@ -32,7 +32,6 @@ public class Question01 {
 			System.out.print("Yazimda bir sorun var, maili kontrol ediniz");
 		}else {
 			System.out.print("E-mail adresiniz dogru..");
-
 		}
 	}
 	

@@ -21,7 +21,7 @@ public class Question08 {
 			toplam+=sayi;
 			sayilar+=1;
 
-			}while(toplam<=500);
+			}while(toplam<500);
 				
 			System.out.println("Girdiginiz Sayilarin Toplami: "+ toplam);
 			System.out.println(sayilar+" tane sayi girdiniz...");

@@ -17,7 +17,7 @@ public class Question05 {
 		System.out.print("Bitis degeri: ");
 		int bit = scan.nextInt();
 		
-		while(bas<bit) {
+		while(bas<=bit) {
 			if (bas%2==0)
 				System.out.print(bas+" ");
 			bas++;

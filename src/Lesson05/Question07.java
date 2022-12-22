@@ -14,15 +14,17 @@ public class Question07 {
 		Scanner scan = new Scanner(System.in);
 
 		int toplam = 0;
-		int sayi = 1;
+		int sayi;
+		int kacsayi=0;
 		do {
 			System.out.print("Pozitif Sayi Giriniz:\nIslemi bitirmek icin 0'a basin");
 			sayi = scan.nextInt();
 			toplam += sayi;
+			kacsayi++;
 
 		} while (sayi != 0);
 
-		System.out.print("Girdiginiz Sayilarin Toplami: " + toplam);
+		System.out.print("Girdiginiz Sayilarin Toplami: " + toplam+ " "+ (kacsayi-1)+" tane sayi");
 
 		scan.close();
 
