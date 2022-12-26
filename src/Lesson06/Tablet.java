@@ -44,4 +44,13 @@ public class Tablet {
 	public Tablet() {
 
 	}
+
+	
+	public String toString() {
+		return "\nTablet\n marka=" + marka + ", \nmodel=" + model + ", \nbellekDepolamaKapasitesi=" + bellekDepolamaKapasitesi
+				+ ", \nekranFormati=" + ekranFormati + ", \nisletimSistemi=" + isletimSistemi + ", \nrenk=" + renk
+				+ ", \nramBellek=" + ramBellek + ", \nmodelYili=" + modelYili + ", \nfiyat=" + fiyat + ", \nozelFonksiyon="
+				+ ozelFonksiyon + ", \nkablosuzTeknoloji=" + kablosuzTeknoloji + ", \nmobilTeknoloji=" + mobilTeknoloji
+				+ ", \nortPilOmru=" + ortPilOmru + ", \ndurum=" + durum + ", \nsatici=" + satici + "";
+	}
 }
