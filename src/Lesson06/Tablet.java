@@ -47,7 +47,7 @@ public class Tablet {
 
 	
 	public String toString() {
-		return "\nTablet\n marka=" + marka + ", \nmodel=" + model + ", \nbellekDepolamaKapasitesi=" + bellekDepolamaKapasitesi
+		return "\nTablet\nmarka=" + marka + ", \nmodel=" + model + ", \nbellekDepolamaKapasitesi=" + bellekDepolamaKapasitesi
 				+ ", \nekranFormati=" + ekranFormati + ", \nisletimSistemi=" + isletimSistemi + ", \nrenk=" + renk
 				+ ", \nramBellek=" + ramBellek + ", \nmodelYili=" + modelYili + ", \nfiyat=" + fiyat + ", \nozelFonksiyon="
 				+ ozelFonksiyon + ", \nkablosuzTeknoloji=" + kablosuzTeknoloji + ", \nmobilTeknoloji=" + mobilTeknoloji

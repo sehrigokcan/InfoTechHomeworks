@@ -40,6 +40,7 @@ public class Constructors {
 		araba1.yakit="benzin";
 		
 		//Buraya 5 tane farkli araba nesnesi uretiniz.
+		
 		Araba araba2=new Araba("Ford",2,9,"1.0","otomatik","hybrid");
 		Araba araba3=new Araba("Toyota",3,4,"1.5","manuel","benzin");
 		Araba araba4=new Araba("Citroen",4,9,"1.0","otomatik","dizel");
