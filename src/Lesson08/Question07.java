@@ -11,7 +11,7 @@ public class Question07 {
 //			Bir integer array olusturunuz ve bu array’deki tum sayilarin carpimini For-each loop 
 //			kullanarak bulunuz. Sonucu ekrana yazdiriniz.
 
-		Integer arr[] = new Integer[] { 1, 2, 3, 4, 5 };
+		Integer arr[] = new Integer[] { 1, 2, 3, 4, 5,6 };
 		double carpim = 1;
 		for (int w : arr) {
 			carpim *= w;
