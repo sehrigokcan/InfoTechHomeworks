@@ -1,0 +1,40 @@
+
+
+1-Inheritance nedir ?
+Nesne Tabanlı Programlama açısından bir sınıfın başka bir sınıftan özellikleri miras almasıdır.
+2-Bir Class’a Parent Class olusturmak icin Syntax nedir?
+public class Child extends Parent(){}
+3-Hangi access modifier’lar inherit edilebilir ?
+public protected 
+4-super() ile this()’in farki nedir?
+super() ust classtaki constructora ulasmayi saglar 
+this() kendi classindaki constructora ulasmayi saglar
+
+5-super() ile super.’nin farki nedir?
+super. method ya da degiskene ulasmayi saglar.
+
+6-this() ile this’in farki nedir?
+this(), kendi classindaki; constructor'a ulasmayi saglar, 
+this. method ya da degiskene ulasmayi saglar.
+
+7-super. ile this.’nin farki nedir?
+super. ust classtaki degisken ve methodlara ulasmak icin kullanilir.
+this. ise icinde bulundugu classtaki degisken ve methodlara ulasmak icin kullanilir.
+
+8-super() ve this() bulunduklari constructor’da ilk sirada olmalidir. True 
+9-super() ve this() bir constructor’da sadece 1 kere kullanilabilir. True 
+10-super() ve this() birlikte ayni constructor’da kullanilabilir.  False
+
+ 
+
+2) Yukaridaki hiyerarsik duzene gore multi-level inheritance classlarini olusturunuz.
+⦁	Personel classina class seviyesinde id,isim,soyisim,address ve telefon datalaarinin deklerasyonunu yapin.
+ Id atamasi, idAtama() methodunda olusturacaginiz programla yapilacak olup her calisana farkli bir id verilecektir.
+  Id’ ler 6 basamakli bir sayi olarak tanimlanacaktir.  
+⦁	Muhasebe classina saatlikUcret, statu ve maas datalarinin deklerasyonunu yapin. maasHesapla() methodu olusturun.
+ Maas hesaplamak icin (maas=saatlikUcret*8*30) formulunu kullanin. Formuldeki 8 rakami gunluk calisma saatini, 
+ 30 ise bir aydaki otuz is gununu temsil etmektedir.
+⦁	Parent (Super) classlardaki veriable’ lari kullanarak Isci classindan 3 adet isci olusturun.
+ Olusturulan iscilerin tum bilgilerini array liste aktarin ve daha sonra consol’ a yazdirin.
+⦁	Parent (Super) classlardaki veriable’ lari kullanarak Memur classindan 3 adet memur olusturun.
+ Olusturulan memurlarin tum bilgilerini array liste aktarin ve daha sonra consol’ a yazdirin.
