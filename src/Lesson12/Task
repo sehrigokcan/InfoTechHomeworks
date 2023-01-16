@@ -1,0 +1,5 @@
+1. Bir isyerinde calisan farkli gruplarda personeller var.  Birtane Base class 
+olacak sekilde bunlari siniflandiriniz. (Personel-isci-ustabasi gibi)
+2. Bu personellere farkli oranlarda zam yapilacaktir. (Override yaparak 
+kullanmaniz istenmektedir)
+3. Bu uygulmayi olusturunuz

@@ -44,10 +44,10 @@ public class Isci extends Muhasebe{
 	for (Isci w: list) {
 		System.out.println("Id:\t\t"+ w.id+
 				"\nIsim:\t\t"+ w.isim + 
-				"\nSoyisim:\t\t"+ w.soyIsim +
+				"\nSoyisim:\t"+ w.soyIsim +
 				"\nAdres:\t\t"+ w.adres +
-				"\nTelefon:\t\t"+ w.telefon +
-				"\nS. Ucret:\t\t"+ w.saatlikUcret +
+				"\nTelefon:\t"+ w.telefon +
+				"\nS. Ucret:\t"+ w.saatlikUcret +
 				"\nStatu:\t\t"+ w.statu +
 				"\nMaas:\t\t"+ w.maas );
 		System.out.println();

@@ -6,7 +6,7 @@ String isim;
 String soyIsim;
 String adres;
 String telefon;
-static int deger=10000;
+static int deger=100000;
 
 public int idAtama() {
 	this.id=deger++;
