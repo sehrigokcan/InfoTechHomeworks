@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Calisan a1= new Asistan("Ahmet","055665787","a@gmail.com",1000.000,"CENG","Asistan","Matematik","Mat Yuksek Lisans");
+		Calisan a1= new Asistan("Ali","055665787","a@gmail.com",1000.000,"CENG","Asistan","Matematik","Mat Yuksek Lisans");
 		
 		Calisan o1= new Ogretmen("Mehmet","055545787","m@gmail.com",1000.000,"BILG","Hoca","Kimya","Docent");
 
