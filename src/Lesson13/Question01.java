@@ -15,19 +15,19 @@ public class Question01 {
 		
 		try {
 			
-			System.out.print("Tc Kimlik Numaraniz: ");
+			System.out.print("Tc Kimlik No: ");
 			String tc= scan.next();
 			try {
 				Question01 question01 = new Question01();
-				question01.kontrol(tc);
+				question01.control(tc);
 			}catch(IllegalArgumentException e) {
-				System.out.println("Tc Kimlik Numaraniz uygun degil.. ");
+				System.out.println("Tc No Not illegal.. ");
 				e.printStackTrace();
 			}
 		
 		}
 		catch(Exception e) {
-			System.out.println("Hata alindi.. ");
+			System.out.println("Error has been taken..");
 			e.printStackTrace();
 			
 		}
@@ -36,12 +36,12 @@ public class Question01 {
 		}
 	}
 	
-	public void kontrol(String tc) {
+	public void control(String tc) {
 	
-		Integer sonRakam= Integer.valueOf(tc.charAt(tc.length()-1));
+		Integer lastNumber= Integer.valueOf(tc.charAt(tc.length()-1));
 
-		if (sonRakam%2==0 && tc.length()==11) {
-			 System.out.println("TC kimlik numaraniz uygun = "+tc);
+		if (lastNumber%2==0 && tc.length()==11) {
+			 System.out.println("TC no = "+tc);
 
 		}else {
 			 throw new IllegalArgumentException("Tc kimlik numaraniz uygun degildir.");
