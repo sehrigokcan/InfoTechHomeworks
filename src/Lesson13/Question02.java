@@ -16,8 +16,7 @@ public class Question02 {
 		}
 		
 		
-		printGrades(10);
-
+		printGrades(120);
 		
 	}
 

@@ -6,6 +6,9 @@ public class IllegalNameException extends RuntimeException{ //Unchecked Exceptio
     public IllegalNameException(String message) {
         super(message);
     }
+    public IllegalNameException() {
+        super();
+    }
 }
 
 
