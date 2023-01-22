@@ -9,14 +9,14 @@ public class Question02 {
 	public static void main(String[] args) throws IllegalGradeException {
 		
 		try {
-			checkNameFormat("Sehri");
+			checkNameFormat("sehri");
 		}catch(IllegalNameException e) {
 			System.out.println("Isminizin bas harfi buyuk olmaliydi");
 			e.printStackTrace();
 		}
 		
 		
-		printGrades(120);
+		printGrades(90);
 		
 	}
 

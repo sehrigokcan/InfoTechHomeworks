@@ -14,7 +14,6 @@ public class Question01 {
 		Scanner scan= new Scanner(System.in);
 		
 		try {
-			
 			System.out.print("Tc Kimlik No: ");
 			String tc= scan.next();
 			try {
