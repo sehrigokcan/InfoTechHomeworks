@@ -1,0 +1,12 @@
+Yukaridaki interface ve class’ i methodlariyla birlikte uygulayin.
+(abstract method veya concrete method olmasi durumu soruyu cozme 
+biciminize gore sizin tercihinize birakilmistir). Kullaniciya su sorulari 
+yoneltin ve kullanicinin tercihine gore otomobil olusturun:
+Otomobiliniz elektrik motorlu mu yoksa benzin motorlu mu olsun?
+Otomobiliniz Otomatik vitesli mi yoksa duz vitesli mi olsun?
+Opsiyonel olan secenekleri tek tek sorun.
+Standard ozellikler her aracta olacak.
+3 farkli arac olusturulacak, olusturulan her araca farkli 17 haneli bir sasi 
+numarasi tanimlanacak ve bu numara bir method kullanilarak 
+olusturulacaktir.
+

@@ -29,7 +29,7 @@ public class Question03 {
 			sonuc*=taban;
 		}
 		System.out.print("Sonuc: "+ sonuc);
-		Math.pow(taban, taban)
+		Math.pow(taban, taban);
 
 	}
 
