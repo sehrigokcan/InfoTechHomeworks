@@ -1,7 +1,9 @@
 package Lesson15;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Scanner;
 
 public class Question05 {
@@ -13,29 +15,32 @@ public class Question05 {
 //	silinemedi" diye mesaj verin
 	public static void main(String[] args) {
 		
-		LinkedList<String> list= new LinkedList<>();
+		LinkedList<String> list = new LinkedList<>(Arrays.asList("Ali","Veli","Can","Ayse"));
+		ListIterator<String> itList = list.listIterator();
+		System.out.println(list);
 		
-		list.add("Ali");
-		list.add("Veli");
-		list.add("Can");
-		list.add("Ayse");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Bir isim giriniz.. : ");
+		String isim = scan.nextLine();
+		isim = isim.substring(0,1).toUpperCase() + isim.substring(1).toLowerCase();
+		System.out.println(isim);
+		String listIsim;
 		
-        System.out.println(list);
-
-		Scanner scan= new Scanner(System.in);
-		String isim= scan.next();
+		boolean sonuc = false;
 		
-//		
-//		
-//		if(list.contains(isim)) {
-//			list.remove(isim);
-//			System.out.println("Bu isim LinkedList'de vardi ve silindi");
-//		}else {
-//			System.out.println("Bu isim LinkedList'de yok bu yuzden silinemedi");
-//		}
-//		
-//		
-//		scan.close();
+		while(itList.hasNext()) {
+			listIsim=itList.next();
+			if(listIsim.equals(isim)) {
+				list.remove(isim);
+				sonuc = true;
+			}
+		}
+		if (sonuc == false) {
+			 System.out.println("Bu isim LinkedList'de yok bu yuzden silinemedi..");
+			}
+			else System.out.println("Bu isim LinkedList'de vardi ve silindi..");
+			
+		scan.close();
 		
 
 	}

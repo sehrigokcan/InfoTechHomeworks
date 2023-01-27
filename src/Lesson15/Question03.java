@@ -26,7 +26,7 @@ public class Question03 {
 	        }
 
 	        while(itr.hasPrevious()){
-	            Integer el = itr.previous();
+	            int el = itr.previous();
 	            System.out.print(el + " ");
 	        }
 

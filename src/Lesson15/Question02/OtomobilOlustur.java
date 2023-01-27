@@ -11,14 +11,13 @@ public class OtomobilOlustur implements StandartOzellikler,BenzinMotor, Elektrik
 //	boolean iklimlendirme=this.iklimlendirme();
 	
 	// vites 
-	static boolean otoSanziman;
-	static boolean otoDiferansiyel;
+
 	static boolean duzSanziman;
 	static boolean duzDiferansiyel;
 	
 	// benzin/ elektrikli
 	static boolean motor;  
-	static boolean elektrikMotor;
+	public static boolean elektrikMotor;
 	static boolean enjeksiyon;
 	static boolean yakitDeposu;
 	static boolean regulator;
@@ -30,8 +29,6 @@ public class OtomobilOlustur implements StandartOzellikler,BenzinMotor, Elektrik
 	static boolean bodyKit;
 	static boolean celikJant;
 	static boolean multimedia;
-	
-	
 	
 
 
